@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{E3D65C61-E099-E119-6876-E37022E54E40}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/arrowScript.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Bow.cs" Line="16" Column="21" />
+      <File FileName="Assets/Scripts/Shoot.cs" Line="30" Column="43" />
+      <File FileName="Assets/Scripts/arrowScript.cs" Line="37" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5601ca18-42d7-4a01-9c74-f12a66d3eb3a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
