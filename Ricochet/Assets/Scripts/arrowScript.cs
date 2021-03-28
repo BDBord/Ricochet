@@ -12,7 +12,6 @@ public class arrowScript : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = 0;
         
     }
 
@@ -31,14 +30,10 @@ public class arrowScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        /* Use this destroy function to delete arrow after certain conditions have been met */
-
-        //Destroy(gameObject);
-
-        /* */
         
-        //hasHit = true;
-        //rb.velocity = Vector2.zero;
-        //rb.isKinematic = true;
+        
+        hasHit = true;
+        rb.velocity = Vector2.zero;
+        rb.isKinematic = true;
     }
 }

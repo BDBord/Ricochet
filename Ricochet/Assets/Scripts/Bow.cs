@@ -7,13 +7,13 @@ public class Bow : MonoBehaviour
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     public Vector2 direction;
-    //float moveSpeed = 2f;
-    //private float moveDirection;
+    float moveSpeed = 2f;
+    private float moveDirection;
 
     private void Awake()
     {
-        //rb = transform.GetComponent<Rigidbody2D>();
-        //boxCollider = transform.GetComponent<BoxCollider2D>();
+        rb = transform.GetComponent<Rigidbody2D>();
+        boxCollider = transform.GetComponent<BoxCollider2D>();
     }
     void Update()
     {
@@ -22,12 +22,12 @@ public class Bow : MonoBehaviour
         direction = MousePos - bowPos;
         FaceMouse();
 
-        //moveDirection = Input.GetAxis("Horizontal");
+        moveDirection = Input.GetAxis("Horizontal");
     }
 
     private void FixedUpdate()
     {
-        //Move();
+        Move();
     }
 
     void FaceMouse()
@@ -35,8 +35,8 @@ public class Bow : MonoBehaviour
         transform.right = direction;
     }
 
-    /*void Move()
+    void Move()
     {
         rb.velocity = new Vector2(moveDirection * moveSpeed, rb.velocity.y);
-    }*/
+    }
 }
