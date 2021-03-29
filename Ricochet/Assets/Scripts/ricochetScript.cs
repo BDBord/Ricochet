@@ -22,8 +22,12 @@ public class ricochetScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        var speed = lastVelocity.magnitude;
-        var direction = Vector3.Reflect(lastVelocity.normalized, collision.contacts[0].normal);
-        rb.velocity = direction * Mathf.Max(speed, 0f);
+
+        if (collision.gameObject.tag.Equals("Environment"))
+        {
+            var speed = lastVelocity.magnitude;
+            var direction = Vector3.Reflect(lastVelocity.normalized, collision.contacts[0].normal);
+            rb.velocity = direction * Mathf.Max(speed, 0f);
+        }
     }
 }

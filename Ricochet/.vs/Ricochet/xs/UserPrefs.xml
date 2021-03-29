@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{E3D65C61-E099-E119-6876-E37022E54E40}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/arrowScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ShootArrow.cs">
     <Files>
-      <File FileName="Assets/Scripts/DestroyEnemy.cs" Line="24" Column="10" />
-      <File FileName="Assets/Scripts/arrowScript.cs" Line="11" Column="3" />
+      <File FileName="Assets/Scripts/DestroyEnemy.cs" Line="24" Column="37" />
+      <File FileName="Assets/Scripts/arrowScript.cs" Line="9" Column="1" />
       <File FileName="Assets/Scripts/Bow.cs" Line="7" Column="1" />
-      <File FileName="Assets/Scripts/MainMenuScript.cs" />
-      <File FileName="Assets/Scripts/ShootArrow.cs" Line="31" Column="87" />
-      <File FileName="Assets/Scripts/ricochetScript.cs" Line="26" Column="1" />
-      <File FileName="Assets/Scripts/DestroyEnvironment.cs" Line="13" Column="10" />
+      <File FileName="Assets/Scripts/MainMenuScript.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/ShootArrow.cs" Line="37" Column="12" />
+      <File FileName="Assets/Scripts/ricochetScript.cs" Line="31" Column="10" />
+      <File FileName="Assets/Scripts/DestroyEnvironment.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="da7257cf-1caa-45a9-9a68-7f9ac0ed5ed5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="33c7334a-71ba-4d49-aa4b-2e09e957997d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

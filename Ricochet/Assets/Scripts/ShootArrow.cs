@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class ShootArrow : MonoBehaviour
 {
+    public static int arrowCount = 1;
 
     public float LaunchForce;
 
@@ -20,8 +23,20 @@ public class ShootArrow : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            ArrowShoot();
+            if (arrowCount == 0)
+            {
+                SceneManager.LoadScene(1);
+                arrowCount++;
+            }
+
+            else
+            {
+                ArrowShoot();
+                arrowCount--;
+            }
+           
         }
+
         
     }
 
