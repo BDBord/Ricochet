@@ -2,17 +2,17 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ShootArrow.cs">
     <Files>
       <File FileName="Assets/Scripts/DestroyEnemy.cs" Line="24" Column="37" />
-      <File FileName="Assets/Scripts/arrowScript.cs" Line="9" Column="1" />
-      <File FileName="Assets/Scripts/Bow.cs" Line="7" Column="1" />
-      <File FileName="Assets/Scripts/MainMenuScript.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/ShootArrow.cs" Line="37" Column="12" />
-      <File FileName="Assets/Scripts/ricochetScript.cs" Line="31" Column="10" />
+      <File FileName="Assets/Scripts/arrowScript.cs" />
+      <File FileName="Assets/Scripts/Bow.cs" />
+      <File FileName="Assets/Scripts/MainMenuScript.cs" Line="21" Column="6" />
+      <File FileName="Assets/Scripts/ShootArrow.cs" Line="33" Column="15" />
+      <File FileName="Assets/Scripts/ricochetScript.cs" />
       <File FileName="Assets/Scripts/DestroyEnvironment.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="33c7334a-71ba-4d49-aa4b-2e09e957997d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="512d3d77-a4cb-4d78-b94c-3f3e8d2b0afe" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
