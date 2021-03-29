@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class Bow : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    private BoxCollider2D boxCollider;
-    public Vector2 direction;
-    float moveSpeed = 2f;
-    private float moveDirection;
+    
+    Vector2 direction;
+    public float force;
+    public GameObject PointPrefab;
+    public GameObject[] Points;
+    public int numberofPoints;
 
-    private void Awake()
+    void Start()
     {
-        rb = transform.GetComponent<Rigidbody2D>();
-        boxCollider = transform.GetComponent<BoxCollider2D>();
+        Points = new GameObject[numberofPoints];
+        for (int i = 0; i < numberofPoints; i++)
+        {
+            Points[i] = Instantiate(PointPrefab, transform.position, Quaternion.identity);
+        }
     }
+
     void Update()
     {
         Vector2 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -22,21 +27,22 @@ public class Bow : MonoBehaviour
         direction = MousePos - bowPos;
         FaceMouse();
 
-        moveDirection = Input.GetAxis("Horizontal");
+        for (int i = 0; i<Points.Length; i++)
+        {
+            Points[i].transform.position = PointPosition(i * 0.1f);
+        }
     }
 
-    private void FixedUpdate()
-    {
-        Move();
-    }
+    
 
     void FaceMouse()
     {
         transform.right = direction;
     }
 
-    void Move()
+    Vector2 PointPosition (float t)
     {
-        rb.velocity = new Vector2(moveDirection * moveSpeed, rb.velocity.y);
+        Vector2 currentPointPos = (Vector2)transform.position + (direction.normalized * force * t) + 0.5f * Physics2D.gravity * (t * t);
+        return currentPointPos;
     }
 }

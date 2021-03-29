@@ -28,12 +28,10 @@ public class arrowScript : MonoBehaviour
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    /*void OnCollisionEnter2D(Collision2D collision)
     {
-        
-        
         hasHit = true;
         rb.velocity = Vector2.zero;
         rb.isKinematic = true;
-    }
+    }*/
 }

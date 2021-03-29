@@ -28,6 +28,6 @@ public class ShootArrow : MonoBehaviour
     void ArrowShoot()
     {
         GameObject ArrowIns = Instantiate(Arrow, transform.position, transform.rotation);
-        ArrowIns.GetComponent<Rigidbody2D>().AddForce(transform.right * LaunchForce);
+        ArrowIns.GetComponent<Rigidbody2D>().velocity = transform.right * LaunchForce;
     }
 }

@@ -65,7 +65,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bow.cs" />
+    <Compile Include="Assets\Scripts\DestroyBlood.cs" />
     <Compile Include="Assets\Scripts\DestroyEnemy.cs" />
+    <Compile Include="Assets\Scripts\DestroyEnvironment.cs" />
     <Compile Include="Assets\Scripts\MainMenuScript.cs" />
     <Compile Include="Assets\Scripts\ShootArrow.cs" />
     <Compile Include="Assets\Scripts\arrowScript.cs" />

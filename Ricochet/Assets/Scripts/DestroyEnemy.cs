@@ -4,8 +4,24 @@ using UnityEngine;
 
 public class DestroyEnemy : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D other)
+
+    public GameObject blood;
+
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        Destroy(gameObject);
+        if (col.gameObject.tag.Equals("Arrow"))
+        {
+            Instantiate(blood, transform.position, Quaternion.identity);
+            Destroy(col.gameObject);
+            Destroy(gameObject);
+        }
+
+        if (col.gameObject.tag.Equals("Environment"))
+        {
+            Instantiate(blood, transform.position, Quaternion.identity);
+            Destroy(col.gameObject);
+            Destroy(gameObject);
+        }
+
     }
 }
