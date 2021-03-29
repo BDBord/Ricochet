@@ -11,17 +11,21 @@ public class ShootArrow : MonoBehaviour
     public float LaunchForce;
 
     public GameObject Arrow;
+
+    private PlayerMovement playermove;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameObject player = GameObject.Find("Player");
+        playermove = player.GetComponent<PlayerMovement>();
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Mouse0))
         {
             if (arrowCount == 0)
             {
@@ -42,7 +46,19 @@ public class ShootArrow : MonoBehaviour
 
     void ArrowShoot()
     {
-        GameObject ArrowIns = Instantiate(Arrow, transform.position, transform.rotation);
-        ArrowIns.GetComponent<Rigidbody2D>().velocity = transform.right * LaunchForce;
+        if (playermove.m_FacingRight)
+        {
+            Vector3 pos = transform.position;
+            pos.x = pos.x + .1f;
+            GameObject ArrowIns = Instantiate(Arrow, pos, transform.rotation);
+            ArrowIns.GetComponent<Rigidbody2D>().velocity = transform.right * LaunchForce;
+        }
+        else
+        {
+            Vector3 pos = transform.position;
+            pos.x = pos.x - .1f;
+            GameObject ArrowIns = Instantiate(Arrow, pos, transform.rotation);
+            ArrowIns.GetComponent<Rigidbody2D>().velocity = transform.right * LaunchForce;
+        }
     }
 }

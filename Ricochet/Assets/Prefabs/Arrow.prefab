@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2097276850255310685}
   - component: {fileID: 2270980093611828141}
   - component: {fileID: 8160935923139298905}
-  - component: {fileID: 8352274533621924532}
+  - component: {fileID: 5410620920439376644}
   m_Layer: 8
   m_Name: Arrow
   m_TagString: Arrow
@@ -130,8 +130,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!60 &8352274533621924532
-PolygonCollider2D:
+--- !u!61 &5410620920439376644
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -143,7 +143,7 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.5156535, y: -0.014684234}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -153,26 +153,6 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.34, y: -0.114999995}
-      - {x: 0.69, y: -0.055}
-      - {x: 0.7, y: -0.035}
-      - {x: 0.7, y: 0.015}
-      - {x: 0.58, y: 0.035}
-      - {x: 0.32999998, y: 0.085}
-      - {x: 0.31, y: 0.065}
-      - {x: 0.32, y: 0.035}
-      - {x: 0.37, y: 0.015}
-      - {x: -0.17999999, y: 0.024999999}
-      - {x: -0.39, y: 0.145}
-      - {x: -0.41, y: 0.155}
-      - {x: -0.65, y: 0.155}
-      - {x: -0.65, y: 0.105}
-      - {x: -0.53, y: -0.015}
-      - {x: -0.65, y: -0.145}
-      - {x: -0.65, y: -0.175}
-      - {x: -0.37, y: -0.175}
-      - {x: -0.17, y: -0.044999998}
-      - {x: 0.31, y: -0.074999996}
-      - {x: 0.31, y: -0.105}
+  serializedVersion: 2
+  m_Size: {x: 0.36976147, y: 0.17086253}
+  m_EdgeRadius: 0

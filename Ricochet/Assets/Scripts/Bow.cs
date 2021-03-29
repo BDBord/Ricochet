@@ -10,9 +10,13 @@ public class Bow : MonoBehaviour
     public GameObject PointPrefab;
     public GameObject[] Points;
     public int numberofPoints;
+    private PlayerMovement playermove;
 
     void Start()
     {
+        GameObject player = GameObject.Find("Player");
+        playermove = player.GetComponent<PlayerMovement>();
+
         Points = new GameObject[numberofPoints];
         for (int i = 0; i < numberofPoints; i++)
         {
@@ -37,7 +41,15 @@ public class Bow : MonoBehaviour
 
     void FaceMouse()
     {
-        transform.right = direction;
+        if(playermove.m_FacingRight == true)
+        {
+            transform.right = direction;
+        }
+        else
+        {
+            transform.right = -direction;
+        }
+        
     }
 
     Vector2 PointPosition (float t)
