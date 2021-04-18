@@ -30,8 +30,8 @@ public class Bow : MonoBehaviour
         Vector2 bowPos = transform.position;
         direction = MousePos - bowPos;
         FaceMouse();
-
-        for (int i = 0; i<Points.Length; i++)
+        
+        for(int i = 0; i<Points.Length; i++)
         {
             Points[i].transform.position = PointPosition(i * 0.1f);
         }
