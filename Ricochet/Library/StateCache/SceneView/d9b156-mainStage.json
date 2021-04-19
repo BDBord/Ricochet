@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":3.8422131538391115,"y":-0.759839653968811,"z":0.5185180306434631},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":9.616186141967774,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":1.6128768920898438,"y":-1.0872631072998047,"z":-298.0639343261719},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":6.12288236618042,"orthographic":true}
@@ -7,3 +8,6 @@
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":44.48400115966797,"y":2.98750901222229,"z":6495.85498046875},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":95.40682220458985,"orthographic":true}
 >>>>>>> parent of 8a9f3f5 (changes)
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-4.954410076141357,"y":-1.7495511770248414,"z":-153.62417602539063},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":2.3355863094329836,"orthographic":true}
+>>>>>>> parent of 55f33c2 (Polish, bug fix, audio manager)
