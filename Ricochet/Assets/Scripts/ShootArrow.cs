@@ -14,11 +14,16 @@ public class ShootArrow : MonoBehaviour
 
     private PlayerMovement playermove;
 
+    public int numberofEnemies;
+
+    public static int EnemyNumber;
+
     // Start is called before the first frame update
     void Start()
     {
         GameObject player = GameObject.Find("Player");
         playermove = player.GetComponent<PlayerMovement>();
+        EnemyNumber = numberofEnemies;
     }
 
     // Update is called once per frame
@@ -33,7 +38,7 @@ public class ShootArrow : MonoBehaviour
                 arrowCount++;
             }
 
-            else if (DestroyEnemy.numberofEnemies == 0)
+            else if (EnemyNumber == 0)
             {
                 SceneManager.LoadScene(4);
                 arrowCount++;
