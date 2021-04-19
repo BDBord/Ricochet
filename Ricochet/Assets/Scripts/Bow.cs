@@ -16,6 +16,7 @@ public class Bow : MonoBehaviour
     {
         GameObject player = GameObject.Find("Player");
         playermove = player.GetComponent<PlayerMovement>();
+
         Points = new GameObject[numberofPoints];
         for (int i = 0; i < numberofPoints; i++)
         {
@@ -30,7 +31,6 @@ public class Bow : MonoBehaviour
         direction = MousePos - bowPos;
         FaceMouse();
 
-        
         for (int i = 0; i<Points.Length; i++)
         {
             Points[i].transform.position = PointPosition(i * 0.1f);
