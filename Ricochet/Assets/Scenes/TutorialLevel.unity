@@ -1436,6 +1436,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 7750907362536392033, guid: 3b677aea80b3a4e2faf3e9ef5e18453f,
         type: 3}
       propertyPath: numberofEnemies
@@ -1446,6 +1447,8 @@ PrefabInstance:
       propertyPath: numberofPoints
       value: 7
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of e128afa (Added Fan prefab)
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b677aea80b3a4e2faf3e9ef5e18453f, type: 3}
 --- !u!1001 &9036527332922369206

@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/TutorialLevel.unity
+=======
+- path: Assets/Scenes/Level3.unity
+>>>>>>> parent of e128afa (Added Fan prefab)
   isLoaded: 1
   isActive: 1
   isSubScene: 0

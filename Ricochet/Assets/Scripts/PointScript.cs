@@ -9,18 +9,11 @@ public class PointScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if(!col.isTrigger)
-        {
-            hasHitCollider = true;
-        }
-
+        hasHitCollider = true;
     }
 
     void OnTriggerExit2D(Collider2D col)
     {
-        if (!col.isTrigger)
-        {
-            hasHitCollider = false;
-        }
+        hasHitCollider = false;
     }
 }
