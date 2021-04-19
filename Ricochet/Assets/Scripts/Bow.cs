@@ -8,10 +8,9 @@ public class Bow : MonoBehaviour
     Vector2 direction;
     public float force;
     public GameObject PointPrefab;
+    public GameObject[] Points;
     public int numberofPoints;
     private PlayerMovement playermove;
-    [HideInInspector]
-    public GameObject[] Points;
 
     void Start()
     {
