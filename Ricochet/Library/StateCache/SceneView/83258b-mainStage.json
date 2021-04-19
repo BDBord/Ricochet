@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-0.7214369773864746,"y":-0.431549072265625,"z":-0.5490479469299316},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":5.2780609130859379,"orthographic":true}
-=======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-0.3615487217903137,"y":0.7758670449256897,"z":-29.321374893188478},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":5.031820774078369,"orthographic":true}
->>>>>>> parent of e128afa (Added Fan prefab)
