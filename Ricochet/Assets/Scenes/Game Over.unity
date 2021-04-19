@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 613402853}
   - component: {fileID: 613402852}
   m_Layer: 5
-  m_Name: Retry Button (NOT IMPLEMENTED)
+  m_Name: Retry Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

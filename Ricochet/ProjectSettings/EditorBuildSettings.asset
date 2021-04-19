@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 85eea4d37cba9c64080fcfbcf0873ffa
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/TutorialLevel.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/HowToPlay.unity
@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Over.unity
     guid: f07482597648cfc4baf98543c9cd72db
+  - enabled: 1
+    path: Assets/Scenes/YouWin.unity
+    guid: 6311f0eacbf054e22b3ac0137d6ffb7a
   m_configObjects: {}

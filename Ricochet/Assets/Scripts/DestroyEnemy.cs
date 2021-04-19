@@ -5,6 +5,7 @@ using UnityEngine;
 public class DestroyEnemy : MonoBehaviour
 {
     public GameObject blood;
+    public static int numberofEnemies = 2;
 
     private void OnCollisionEnter2D(Collision2D col)
     {
@@ -14,6 +15,7 @@ public class DestroyEnemy : MonoBehaviour
             Destroy(col.gameObject);
             Destroy(gameObject);
             ShootArrow.arrowCount++;
+            numberofEnemies--;
         }
 
         if (col.gameObject.tag.Equals("Environment"))
@@ -22,7 +24,7 @@ public class DestroyEnemy : MonoBehaviour
             Destroy(col.gameObject);
             Destroy(gameObject);
             ShootArrow.arrowCount++;
-
+            numberofEnemies--;
         }
 
     }
