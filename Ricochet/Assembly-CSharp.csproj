@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Bow.cs" />
      <Compile Include="Assets\Scripts\DestroyBlood.cs" />
      <Compile Include="Assets\Scripts\DestroyEnemy.cs" />
@@ -63,6 +64,7 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PointScript.cs" />
      <Compile Include="Assets\Scripts\ShootArrow.cs" />
+     <Compile Include="Assets\Scripts\Sound.cs" />
      <Compile Include="Assets\Scripts\arrowScript.cs" />
      <Compile Include="Assets\Scripts\ricochetScript.cs" />
  <Reference Include="UnityEngine">
