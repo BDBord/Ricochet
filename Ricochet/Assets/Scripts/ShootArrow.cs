@@ -64,7 +64,7 @@ public class ShootArrow : MonoBehaviour
             Vector3 pos = transform.position;
             pos.x = pos.x - .1f;
             GameObject ArrowIns = Instantiate(Arrow, pos, transform.rotation);
-            ArrowIns.GetComponent<Rigidbody2D>().velocity = transform.right * LaunchForce;
+            ArrowIns.GetComponent<Rigidbody2D>().velocity = -transform.right * LaunchForce;
         }
     }
 }
