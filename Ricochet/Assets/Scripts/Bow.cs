@@ -30,10 +30,16 @@ public class Bow : MonoBehaviour
         direction = MousePos - bowPos;
         FaceMouse();
 
-        
-        for (int i = 0; i<Points.Length; i++)
+        //Updates points' position to match trajectory each frame, disables sprite renderer if collider is hit
+        bool collided = false;
+        for (int i = 0; i < Points.Length; i++)
         {
-            Points[i].transform.position = PointPosition(i * 0.1f);
+            Points[i].transform.position = PointPosition((i + 1) * 0.1f);
+            if (Points[i].GetComponent<PointScript>().hasHitCollider)
+            {
+                collided = true;
+            }
+            Points[i].GetComponent<SpriteRenderer>().enabled = !collided;
         }
     }
 

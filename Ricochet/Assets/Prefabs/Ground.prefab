@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3145442632781567408}
   - component: {fileID: 3145442632781567423}
   - component: {fileID: 3145442632781567422}
+  - component: {fileID: -7482331321242021290}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Environment
@@ -108,3 +109,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 15.425221, y: 0.98110807}
   m_EdgeRadius: 0
+--- !u!50 &-7482331321242021290
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3145442632781567421}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 2
+  m_CollisionDetection: 0
+  m_Constraints: 0
