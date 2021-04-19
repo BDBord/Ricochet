@@ -33,6 +33,12 @@ public class ShootArrow : MonoBehaviour
                 arrowCount++;
             }
 
+            else if (DestroyEnemy.numberofEnemies == 0)
+            {
+                SceneManager.LoadScene(4);
+                arrowCount++;
+            }
+
             else
             {
                 ArrowShoot();
