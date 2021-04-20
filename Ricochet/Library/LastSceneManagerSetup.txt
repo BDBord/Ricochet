@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/TutorialLevel.unity
-=======
-- path: Assets/Scenes/YouWin.unity
->>>>>>> c4f9ef2da304dea538e8eadfdb8d25afb9487a10
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -35,7 +35,7 @@ public class ShootArrow : MonoBehaviour
             if (arrowCount == 0)
             {
                 SceneManager.LoadScene(3);
-                arrowCount++;
+                arrowCount = 1;
             }
 
             else if (EnemyNumber == 0)
