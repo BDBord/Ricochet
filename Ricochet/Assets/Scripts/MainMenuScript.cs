@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuScript : MonoBehaviour
 {
-
-
     public void StartButton()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void HowToPlayButton()
+    {
+        SceneManager.LoadScene(2);
     }
 
     public void BackButton()
@@ -17,20 +20,21 @@ public class MainMenuScript : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void LevelSelectButton()
-    {
-        SceneManager.LoadScene(5);
-    }
-
     public void QuitGame()
     {
         Application.Quit();
     }
 
-    public void Level1 ()
+    public void LevelSelect()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+    public void Level1()
     {
         SceneManager.LoadScene(11);
     }
+
     public void Level2()
     {
         SceneManager.LoadScene(10);
