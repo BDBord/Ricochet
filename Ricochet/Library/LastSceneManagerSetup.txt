@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/TutorialLevel.unity
+=======
+- path: Assets/Scenes/Level4.unity
+>>>>>>> ff7c695127b3c7475023fe57865f5c5fdabe209a
   isLoaded: 1
   isActive: 1
   isSubScene: 0

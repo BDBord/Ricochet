@@ -40,15 +40,14 @@ public class arrowScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag.Equals("Environment"))
-        {  
-        }
-
-        else
+        //Did you forget to finish this?
+        if (!collision.gameObject.tag.Equals("Environment") && !hasHit)
         {
             hasHit = true;
             rb.velocity = Vector2.zero;
             rb.isKinematic = true;
+            AudioManager.instance.Stop("Fly");
+            AudioManager.instance.Play("Thunk");
         }
 
     }

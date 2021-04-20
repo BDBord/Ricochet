@@ -43,4 +43,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf5cd80ade59a44a8f60808cb4fd4c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: Fly
+    clip: {fileID: 8300000, guid: 6648e938d5206794f8408012a3420ab6, type: 3}
+    volume: 0.38
+    pitch: 0.7
+    loop: 0
+    source: {fileID: 0}
+  - name: Twang
+    clip: {fileID: 8300000, guid: 2de649643a41faa4d8dadd103f9b9dc2, type: 3}
+    volume: 0.69
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Thunk
+    clip: {fileID: 8300000, guid: 4bfed729f85764e4bae560421ddfdb44, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pain
+    clip: {fileID: 8300000, guid: 29b1cbf94e8ad974c9174c95f5f4a34f, type: 3}
+    volume: 0.93
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
