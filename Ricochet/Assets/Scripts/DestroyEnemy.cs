@@ -15,6 +15,7 @@ public class DestroyEnemy : MonoBehaviour
             Destroy(gameObject);
             ShootArrow.arrowCount++;
             ShootArrow.EnemyNumber--;
+            AudioManager.instance.Play("Pain");
         }
 
         if (col.gameObject.tag.Equals("Environment"))
@@ -24,6 +25,7 @@ public class DestroyEnemy : MonoBehaviour
             Destroy(gameObject);
             ShootArrow.arrowCount++;
             ShootArrow.EnemyNumber--;
+            AudioManager.instance.Play("Pain");
         }
 
     }
