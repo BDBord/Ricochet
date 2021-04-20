@@ -58,15 +58,19 @@ public class ShootArrow : MonoBehaviour
     {
         if (playermove.m_FacingRight)
         {
+            AudioManager.instance.Play("Twang");
+            AudioManager.instance.Play("Fly");
             Vector3 pos = transform.position;
-            pos.x = pos.x + .1f;
+            pos.x = pos.x;
             GameObject ArrowIns = Instantiate(Arrow, pos, transform.rotation);
             ArrowIns.GetComponent<Rigidbody2D>().velocity = transform.right * LaunchForce;
         }
         else
         {
+            AudioManager.instance.Play("Twang");
+            AudioManager.instance.Play("Fly");
             Vector3 pos = transform.position;
-            pos.x = pos.x - .1f;
+            pos.x = pos.x;
             GameObject ArrowIns = Instantiate(Arrow, pos, transform.rotation);
             ArrowIns.GetComponent<Rigidbody2D>().velocity = -transform.right * LaunchForce;
         }
