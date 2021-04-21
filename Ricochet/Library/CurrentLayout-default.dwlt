@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 717
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 60
+  controlID: 107
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 292
     height: 717
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 284
     height: 434
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 767
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -216,10 +216,10 @@ MonoBehaviour:
     y: 0
     width: 1148
     height: 717
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 61
+  controlID: 108
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,10 +241,10 @@ MonoBehaviour:
     y: 0
     width: 1148
     height: 434
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 62
+  controlID: 109
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -349,9 +349,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de390000
-    m_LastClickedID: 14814
-    m_ExpandedIDs: 00000000ce390000
+    m_SelectedIDs: d8390000
+    m_LastClickedID: 14808
+    m_ExpandedIDs: 00000000ca390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ce390000
+    m_ExpandedIDs: 00000000ca390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -504,7 +504,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0052ffff1452ffffb453ffff9c54ffff8655ffff6656ffff3257ffff9258ffff9a58ffffa258ffffaa58ffffb258ffff9859ffffa859ffffd059ffff8a6effff8c6effff309fffffb4b1ffff1eb2ffff04b3ffffb4b3ffffa8b4ffff46b7ffff38b8ffff82c1ffff5cc2ffffd8c2ffff4ac3ffff54c6ffff60c6ffff52d0ffffc4d0ffff18d2ffff2cd2ffff5cd3ffff42d4ffff4ad4ffff28d5ffffced5ffff66d6ffff6ed6ffff76d6ffff7ed6ffff86d6ffff60d7ffff80d7ffff64d8ffff32daffffc8daffffdcdaffff5adbffff62dbffff30dcffff0eddffffb4ddffff4cdeffff54deffff5cdeffff64deffff6cdeffff46dfffff54dfffff42e0ffff32e1ffff76e1ffff8ae1ffff04e2ffffe6e2ffffb0e3ffff8ae4ffff2ce5ffffc0e5ffffc4e5ffffc8e5ffffcce5ffffd0e5ffffa6e6ffffaae6ffff08e7ffff48e7ffff5ce7ffff88e8ffff8ce8ffff56e9ffff30eaffffd2eaffff66ebffff6aebffff6eebffff72ebffff76ebffff4cecffff68ecffffa6edffff2eeeffff9af3ffffeaf4ffff6af6ffff56faffff62fbffff663900004c3b0000b84300001c4a00006a4a00002aba0000
+      m_ExpandedIDs: 7eebffff92ebffff2eedffff12eefffff8eeffffd4efffff9cf0ffffa0f0ffffa4f0ffffa8f0ffffacf0ffffb0f0ffff86f1ffffa2f1ffff48faffffdafaffff62fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -566,7 +566,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 887.6443, y: 431.5934, z: -97.87138}
     speed: 2
-    m_Value: {x: -2.75, y: -2.59, z: 0}
+    m_Value: {x: 887.6443, y: 431.5934, z: -97.87138}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 520.87616
     speed: 2
-    m_Value: 1.4938616
+    m_Value: 520.87616
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -704,7 +704,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
