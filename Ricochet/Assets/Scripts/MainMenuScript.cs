@@ -10,9 +10,9 @@ public class MainMenuScript : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void HowToPlayButton()
+    public void TutorialButton()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void BackButton()
